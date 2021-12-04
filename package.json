@@ -4,7 +4,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "extract": "lingui extract",
+    "compile": "lingui compile"
   },
   "dependencies": {
     "@auth0/auth0-react": "^1.8.0",
