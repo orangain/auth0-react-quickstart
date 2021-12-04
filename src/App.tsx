@@ -4,6 +4,7 @@ import './App.css'
 import LoginButton from './LoginButton'
 import LogoutButton from './LogoutButton'
 import Profile from './Profile'
+import { Trans } from '@lingui/macro'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,7 +13,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React!</p>
+        <p>
+          <Trans>Hello Vite + React!</Trans>
+        </p>
         <p>
           <LoginButton />
           <Profile />
